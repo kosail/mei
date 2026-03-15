@@ -1,9 +1,13 @@
 const std = @import("std");
+const tokenType = @import("lexer/token_type.zig");
+const token = @import("lexer/token.zig");
+const tokenizer = @import("lexer/tokenizer.zig");
 
 const LANG_NAME = "mei";
 const LANG_VERSION = "0.0.0";
 
 const COMPILER_STARTUP_MSG = std.fmt.comptimePrint("{s} compiler v{s}", .{LANG_NAME, LANG_VERSION});
+
 
 pub fn main() !void {
     // Get args passed down to the binary
@@ -29,5 +33,5 @@ pub fn main() !void {
 
     const file_data = try std.fs.cwd().readFileAlloc(file_alloc, args[1], 1024  * 1024);
 
-    std.debug.print("Bytes read: {d}\nContents: {s}\n", .{file_data.len, file_data});
+    tokenizer.Tokenizer(file_data);
 }
