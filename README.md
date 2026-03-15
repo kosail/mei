@@ -1,38 +1,16 @@
 ![mei programming language](images/logo.webp)
 ---
-> This is a quick README I wrote just to keep ideas fresh.
 
-mei is a programming language where the filesystem is the primary data structure. By this I mean that it is a filesystem query language, like SQL but for directories. Programs writte in mei operate on files as structured objects rather than raw paths.
+Out of nowhere I got a strong desire of building something powerful, meaningful and educational for myself. I had no choice but to create my own programming language.
 
-This is the example concept I would like to keep in mind:
+I went straight up to Youtube and found [this wonderful playlist](https://youtube.com/playlist?list=PLUDlas_Zy_qC7c5tCgTMYq2idyyT241qs&si=Xyluj5YDMPhmQ14z), I headed to GitHub and [found gold too](https://github.com/DoctorWkt/acwj?tab=readme-ov-file). These will be my main resources to learn what I need to.
 
-```mei
-files("photos/")
-    .where(ext == "jpg")
-    .rename("{year}-{month}-{hash}.jpg")
-```
+This repository is the documentation of my journey, which goal is to bootstrap mei compiler in mei.
 
-### Features that I thought to implement:
-- built-in metadata extraction
-- directory queries
-- safe batch operations
-- transactional file operations
-
-### Basic progress tracker
-- [X] Analysis and definition
-    - [ ] Documentation about the project and a cute README
-- [ ] Lexer
-    - [ ] Tokens
-    - [ ] Syntax
-- [ ] Parser
-    - [ ] AST
-- [ ] Semantic analysys
-- [ ] Code generation
+This is the roadmap of the steps I have taken so far, feel free to check them out.
+1. [Episode 0](docs/introduction.md): Introduction to the voyage and definition of the project
 
 ---
-
-#### I'm starting to learn Zig with this project, so expect several commits moving around and testing new things before this starts taking shape.
-
 
 KVantage Copyright © 2026, kosail <br/>
 With love, from Honduras.
