@@ -22,8 +22,9 @@ pub const TokenType = enum {
 
     PLUS,
     MINUS,
-    START,
+    STAR,
     SLASH,
+    BACKSLASH,
     PERCENT,
 
     ARROW, // -> (for return types in functions)

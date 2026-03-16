@@ -1,6 +1,4 @@
 const std = @import("std");
-const tokenType = @import("lexer/token_type.zig");
-const token = @import("lexer/token.zig");
 const tokenizer = @import("lexer/tokenizer.zig");
 
 const LANG_NAME = "mei";
