@@ -159,6 +159,8 @@ General ideas:
 The goal is a language that can be learned quickly and used as a teaching tool, while still being capable of writing real programs.
 
 
+## Next Episode: [WTH am I doing?](ep1_wth.md)
+
 ---
 
 KVantage Copyright © 2026, kosail <br/>

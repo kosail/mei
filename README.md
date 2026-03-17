@@ -8,7 +8,8 @@ I went straight up to Youtube and found [this wonderful playlist](https://youtub
 This repository is the documentation of my journey, which goal is to bootstrap mei compiler in mei.
 
 This is the roadmap of the steps I have taken so far, feel free to check them out.
-1. [Episode 0](docs/introduction.md): Introduction to the voyage and definition of the project
+1. [Episode 0](docs/ep0_introduction.md): Introduction to the voyage and definition of the project
+2. [Episode 1](docs/ep1_wth.md): First hit on a wall: Wth I'm REALLY doing?
 
 ---
 
