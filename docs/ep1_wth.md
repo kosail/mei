@@ -19,3 +19,11 @@ I decided to stick to what the book suggests in terms of what language to create
 
 I will work my way through the book, which will take some time (I expect around 3 to 4 months). Thought, I will keep updating this repository with my notes and learning while crafting jlox and clox compilers, as this journey needs to be documented.
 See you in the next episode about lexers!
+
+
+## Next Episode: [First things first: Scanners and lexers](ep2.1_scanners.md)
+
+---
+
+KVantage Copyright © 2026, kosail <br/>
+With love, from Honduras.
